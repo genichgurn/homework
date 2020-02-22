@@ -1,0 +1,44 @@
+h1, h2, h3 {
+    text-align: center;
+}
+
+p.ordinary {
+    font-family: Times New Roman, Times, serif;
+    color: black;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+p.img-caption {
+    font-size: 20px;
+    text-decoration: wavy;
+}
+
+.highlight {
+    background-color: yellowgreen;
+}
+
+.copyright-string {
+    color: blue;
+}
+
+img {
+    width: 450px;
+}
+
+.image-container {
+    text-align: center;
+    border: 2px solid green;
+}
+
+ul.ul-square {
+    list-style-type: square;
+}
+
+ul.ul-circle {
+    list-style-type: circle;
+}
+
+ul.ul-disc {
+    list-style-type: disc;
+}
