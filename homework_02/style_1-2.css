@@ -1,19 +1,45 @@
+.main-container{
+    padding: 5px;
+    height: 100%;
+    width: 100%;
+}
+
+.container-1{
+    height: 100%;
+    width: 100%;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.right{
+    position: relative;
+}
+
 .block-1{
     background-color: blueviolet;
-    height: 300px;
+    width: 98%;
+    min-height: 300px;
+	margin: 0 auto;
 }
 
 .block-2{
     background-color: chartreuse;
-    height: 80px;
+    flex-basis: 48%;
+	min-height: 80px;
+    margin: 0 auto;
 }
 
 .block-3{
     background-color: red;
-    height: 180px;
+    flex-basis: 32%;
+    min-height: 180px;
+    margin: 0 auto;
 }
 
 .block-4{
     background-color: royalblue;
-    height: 120px;
+    flex-basis: 24%;
+    min-height: 120px;
+    margin: 0 auto;
 }
