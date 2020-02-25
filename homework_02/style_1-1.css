@@ -1,0 +1,52 @@
+.main-container{
+    padding: 5px;
+    height: 100%;
+    width: 100%;
+}
+
+.container-1{
+    padding-bottom: 20px;
+     justify-content: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.spring{
+    display: flex;
+}
+
+.right{
+    position: relative;
+}
+
+.block-1{
+    background-color: blueviolet;
+    width: 98%;
+    height: 300px;
+    overflow: auto;
+}
+
+.block-2{
+    background-color: chartreuse;
+    flex-basis: 48%;
+    height: 80px;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.block-3{
+    background-color: red;
+    flex-basis: 32%;
+    height: 180px;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.block-4{
+    background-color: royalblue;
+    flex-basis: 24%;
+    height: 120px;
+    overflow: auto;
+    margin: 0 auto;
+}
