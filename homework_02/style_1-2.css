@@ -19,27 +19,27 @@
 .block-1{
     background-color: blueviolet;
     width: 98%;
-    min-height: 300px;
+    min-height: 38vh;
 	margin: 0 auto;
 }
 
 .block-2{
     background-color: chartreuse;
     flex-basis: 48%;
-	min-height: 80px;
+	min-height: 14vh;
     margin: 0 auto;
 }
 
 .block-3{
     background-color: red;
     flex-basis: 32%;
-    min-height: 180px;
+    min-height: 18vh;
     margin: 0 auto;
 }
 
 .block-4{
     background-color: royalblue;
     flex-basis: 24%;
-    min-height: 120px;
+    min-height: 15vh;
     margin: 0 auto;
 }
