@@ -121,6 +121,7 @@ header .menu{
 
 header .buttons a{
 	display: inline-block;
+	text-align: left;
 	text-decoration: none;
 	color: #ffffff;
 	text-transform: uppercase;
