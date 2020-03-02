@@ -1,0 +1,298 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+/*Our style*/
+
+.wrapper{
+	max-width: 1920px;
+	margin: 0 auto;
+	width: 100%;
+	font-family: 'Proxima Nova Regular';
+}
+
+.center{
+	max-width: 1550px;
+	margin: 0 auto;
+	width: 90%;
+}
+
+header{
+	background-image: url('./images/football.png');
+	height: 100vh; /*vh - height*/
+	width: 100%;
+	background-size: cover;
+	max-height: 960px;
+}
+
+header .logo{
+	margin-top: 55px;
+}
+
+header .text_right{
+	font-size: 14px;
+	font-family: 'Proxima Nova Light';
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: right;
+	margin-top: -25px;
+}
+
+header h1{
+	font-size: 90px;
+	font-family: 'Proxima Nova Bold';
+	color: #ffffff;
+	margin-top: 25vh;
+}
+
+header h1 span{
+	display: block;
+	text-align: right;
+}
+
+header .menu li{
+	display: inline-block;
+}
+
+header .menu li a{
+	text-decoration: none;
+	color: #8367d5;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: 'Proxima Nova Light';
+	padding: 0 25px;
+}
+
+header .menu li a:hover{ /*effects*/
+	color: #ffffff;
+}
+
+header .menu{
+	float: right;
+}
+
+header .buttons a{
+	display: inline-block;
+	text-decoration: none;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: 'Proxima Nova Light';
+	width: 200px;
+	background-color: #5e42b0;
+	padding: 6px 65px 20px 43px;
+	border-radius: 37px;
+}
+
+header .buttons{
+	clear: both;
+	margin-top: 20vh;
+	text-align: center;
+}
+
+header .buttons i{
+	font-size: 37px;
+	margin-right: 30px;
+	position: relative;
+	top: 14px;
+}
+
+header .buttons span{
+	font-family: 'Proxima Nova Semibold';
+	margin-left: 60px;
+}
+
+header .buttons a:first-child{ /*a:nth-child(1)*/
+	margin-right: 50px;
+}
+
+header .buttons a:hover{
+	color: #5e42b0;
+	background-color: #ffffff;
+}
+
+.container2 img{
+	float: left;
+	margin-left: 9%;
+	margin-top: 20px;
+}
+
+.container2 h2{
+	font-size: 90px;
+	font-family: 'Proxima Nova Bold';
+	color: #e7e7e7;
+	text-transform: uppercase;
+	padding-top: 100px;
+	padding-bottom: 80px;
+}
+
+.container2 .text_center{
+	font-family: 'Proxima Nova Bold';
+	font-size: 36px;
+	color: #c1c1c1;
+	text-transform: uppercase;
+	padding-bottom: 25px;
+}
+
+.container2 .text_center span{
+	font-size: 18px;
+	color: #000000;
+	border-bottom: 5px solid #5e42b0;
+	position: relative;
+	top: -10px;
+}
+
+.container2 .text_bottom{
+	font-size: 20px;
+	color: #000000;
+	padding-bottom: 60px;
+}
+
+.container2 .block2{
+	background-color: #f6f4fa;
+}
+
+.container2 .block3{
+	background-color: #5e42b0;
+}
+
+.container2 .block2 .text_center, .container2 .block3 .text_center{
+	padding-top: 60px;
+}
+
+
+@media(min-height: 960px){
+	header h1{
+		margin-top: 300px;
+	}
+	header .buttons{
+		margin-top: 180px;
+	}
+}
+
+@media(max-width: 1550px){
+	.container2 img{
+		margin-left: 0;
+	}
+}
+
+@media(max-width: 1250px){
+	header h1, .container2 h2{
+		font-size: 70px;
+	}
+	header .menu li a{
+		padding: 0 15px;
+	}
+	.container2 img{
+		width: 50%;
+	}
+}
+
+@media(max-width: 1024px){
+	header h1, .container2 h2{
+		font-size: 58px;
+	}
+	header .menu li a{
+		padding: 0 10px;
+	}
+}
+
+@media(max-width: 768px){
+	header h1, .container2 h2{
+		font-size: 44px;
+	}
+	header .menu li a{
+		padding: 0 5px;
+	}
+	header .buttons a{
+		display: block;
+		margin: 0 auto;
+	}
+	header .buttons a:first-child{
+		margin-right: auto;
+		margin-bottom: 20px;
+	}
+	.container2 img{
+		display: block;
+		margin: 0 auto;
+		float: none;
+		margin-top: 30px;
+	}
+}
+
+@media(max-width: 576px){
+	header h1, .container2 h2{
+		font-size: 32px;
+	}
+	header .buttons a{
+		padding: 6px 40px 20px 30px;
+	}
+}
+
+@media(max-width: 425px){
+	header .logo{
+		width: 35%;
+		margin-top: 25px;
+	}
+	header .text_right{
+		font-size: 12px;
+		margin-top: -17px;
+	}
+	header h1 span{
+		text-align: left;
+	}
+	header h1{
+		margin-top: 20vh;
+	}
+	header{
+		background-position-x: 45%;
+	}
+}
