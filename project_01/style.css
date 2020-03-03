@@ -194,12 +194,15 @@ footer .center{
 footer .download-button-block{
 	display: flex;
 	width: 100%;
+	padding-top: 200px;
+
+}
+
+footer .download-button-block p{
 	color: #ffffff;
 	font-family: 'Proxima Nova Bold';
 	font-size: 90px;
 	text-transform: uppercase;
-	padding-top: 200px;
-
 }
 
 footer .download-button-block p span{
@@ -212,10 +215,6 @@ footer .download-button-block a{
 	margin-right: 25px;
 	width: 130px;
 	height: 137px;
-}
-
-footer .buttons{
-	margin-top: 150px;
 }
 
 .footer-info{
@@ -397,15 +396,59 @@ footer .text_right{
 	}
 }
 
-@media(max-width: 1550px){
-	.container2 img{
-		margin-left: 0;
+@media(max-height: 760px){
+	footer .buttons{
+		margin-top: 5vh;
 	}
 }
 
-@media(max-width: 1250px){
-	header h1, .container2 h2{
+@media(max-width: 1680px){
+	.content4 p{
+		margin-right: 220px;
+		margin-left: 100px;
+	}
+	.container4 h2, .decoration4{
+		margin-left: 100px;
+	}
+	.donload-button-block p{
+		font-size: 80px;
+	}
+}
+
+@media(max-width: 1590px){
+	.container2 img{
+		margin-left: 0;
+	}
+
+	header h1, .container2 h2, .container3 h2, .container4 h2, footer .download-button-block p{
+		font-size: 75px;
+	}
+
+}
+
+@media(max-width: 1470px){
+	footer .download-button-block p span{
+		font-size: 30px;
+	}
+
+}
+
+@media(max-width: 1400px){
+	.container3 .center img{
+		width: 75%;
+	}
+	footer .download-button-block p{
 		font-size: 70px;
+	}
+	footer .download-button-block a img{
+		width: 100px;
+	}
+
+}
+
+@media(max-width: 1250px){
+	header h1, .container2 h2, .container3 h2, .container4 h2{
+		font-size: 65px;
 	}
 	header .menu li a{
 		padding: 0 15px;
@@ -413,47 +456,132 @@ footer .text_right{
 	.container2 img{
 		width: 50%;
 	}
+	.container3 .center img{
+		width: 60%;
+		margin-top: -25px;
+	}
+	.container4 h2{
+		margin-left: 30px;
+	}
+
+	footer .download-button-block p{
+		font-size: 65px;
+	}
+	footer .download-button-block a img{
+		width: 85px;
+	}
+	footer .download-button-block p span{
+		font-size: 25px;
+	}
+
+	footer .center{
+		width: 65%;
+	}
 }
 
-@media(max-width: 1024px){
-	header h1, .container2 h2{
+@media(max-width: 1030px){
+	header h1, .container2 h2, .container3 h2, .container4 h2 {
 		font-size: 58px;
+	}
+	.container4 h2{
+		margin-bottom: 50px;
 	}
 	header .menu li a{
 		padding: 0 10px;
 	}
+	.container3 .center img{
+		margin-top: 30px;
+	}
+	.container4 h2, .decoration4{
+		margin-left: 10%;
+	}
+	.content4 p{
+		margin-right: 10%;
+		margin-left: 10%;
+	}
+	footer .center{
+		width: 90%;
+	}
+	footer .download-button-block{
+		justify-content: center;
+	}
 }
 
 @media(max-width: 768px){
-	header h1, .container2 h2{
+	header h1, .container2 h2, .container3 h2, .container4 h2, footer .download-button-block p{
 		font-size: 44px;
 	}
 	header .menu li a{
 		padding: 0 5px;
 	}
-	header .buttons a{
+	header .buttons a, footer .buttons a{
 		display: block;
 		margin: 0 auto;
 	}
-	header .buttons a:first-child{
+	header .buttons a:first-child, footer .buttons a:first-child{
 		margin-right: auto;
 		margin-bottom: 20px;
 	}
-	.container2 img{
+	header .decoration{
+		height: 30vh;
+		width: auto;
+	}
+	header .buttons{
+		margin-top: 10vh;
+	}
+	footer .buttons{
+		margin-top: 5vh;
+	}
+
+	.container2 img, .container3 img{
 		display: block;
 		margin: 0 auto;
 		float: none;
 		margin-top: 30px;
 	}
+	.decoration4{
+		margin-top: 20px;
+	}
+
+	footer .download-button-block{
+		padding-top: 50px;
+	}
+	
+	.footer-info .text_right a{
+		font-size: 16px;
+	}
+	.footer-info .social a{
+		font-size: 18px;
+	}
+
+
 }
 
 @media(max-width: 576px){
-	header h1, .container2 h2{
+	header h1, .container2 h2, .container3 h2, .container4 h2, footer .download-button-block p{
 		font-size: 32px;
 	}
-	header .buttons a{
+	header .buttons a, footer .buttons a{
 		padding: 6px 40px 20px 30px;
 	}
+	.container4 h2, .decoration4{
+		margin-left: 4%;
+	}
+	.content4 p{
+		margin-right: 4%;
+		margin-left: 4%;
+	}
+	.container4 h2{
+		margin-bottom: 10px;
+	}
+	.decoration4{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	footer .footer-info{
+		flex-direction: column;
+	}
+
 }
 
 @media(max-width: 425px){
@@ -474,4 +602,16 @@ footer .text_right{
 	header{
 		background-position-x: 45%;
 	}
+	.block4{
+		flex-direction: column;
+	}
+	.block4 img{
+		width: 100%;
+		max-width: 100%;
+		order: 1;
+	}
+	.content4 h2{
+		margin-top: 10px;
+	}
+
 }
