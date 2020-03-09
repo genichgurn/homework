@@ -292,6 +292,7 @@ footer .text_right{
 	border-bottom: 5px solid #5e42b0;
 	position: relative;
 	top: -10px;
+	margin-right: 5px;
 }
 
 .container2 .block3 .text_center span, .container3 .block3 .text_center span{
