@@ -1,0 +1,249 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: 'Proxima Nova Regular';
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+/*Our style*/
+
+.wrapper{
+	max-width: 1600px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.center{
+	max-width: 1140px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+header .top_header{
+	height: 60px;
+	background-color: #2d3e50;
+}
+
+header .flex_header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+}
+
+header .flex_header a{
+	font-size: 14px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+header .flex_header a:hover{
+	color: #ffc000;
+}
+
+header .flex_header i{
+	color: #ffc000;
+	margin-right: 20px;
+	font-size: 16px;
+	position: relative;
+	top: 2px;
+}
+
+header .bottom_header{
+	height: 90px;
+	display: flex;
+	align-items: center;
+}
+
+header .bottom_header a{
+	font-family: 'Proxima Nova Bold';
+	text-decoration: none;
+	font-size: 21px;
+	color: #252c30;
+}
+
+header .bottom_header a span{
+	color: #ffc000;
+}
+
+header .bottom_header .menu{
+	display: flex;
+}
+
+header .bottom_header .menu li a{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #252c30;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 0 30px;
+}
+
+header .bottom_header .menu li a:hover{
+	color: #ffc000;
+}
+
+header .bottom_header .search i{
+	font-size: 22px;
+	color: #252c30;
+}
+
+header .bottom_header .search:hover i{
+	color: #ffc000;
+	cursor: pointer;
+}
+
+header .bottom_header nav{
+	margin-left: 15%;
+}
+
+.container2{
+	background-image: url('./images/repace.png');
+	height: calc(100vh - 150px);
+	background-repeat: no-repeat;
+	max-height: 805px;
+	background-size: cover;
+}
+
+.container3{
+	padding-top: 120px;
+}
+
+.container3 .cards{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 55px;
+}
+
+.container3 .cards .item{
+	padding: 150px 0;
+	width: 23%;
+	background-color: #2d3e50;
+}
+
+.container3 .cards .item h3{
+	color: #ffffff;
+	font-size: 18px;
+	font-family: 'Proxima Nova Bold';
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.container3 .cards .item p{
+	color: #ffffff;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	line-height: 2;
+	padding: 0 25px;
+}
+
+.icon-block{
+	text-align: center;
+	margin-bottom: 45px;
+}
+
+.my-circle{
+	fill: #ffffff;
+}
+
+.my-icon-symbol{
+	fill: #FFC000;
+}
+
+.container3 .cards .item:hover{
+	background-color: #ffffff;
+	border: 1px solid #FFC000;
+}
+
+.container3 .cards .item:hover .my-circle{
+	fill: #ffc000;
+}
+
+.container3 .cards .item:hover .my-icon-symbol{
+	fill: #ffffff;
+}
+
+.container3 .cards .item:hover h3{
+	color: #232323;
+}
+
+.container3 .cards .item:hover p{
+	color: #232323;
+}
+
+.container3 .center > p{
+	text-align: center;
+	color: #252c30;
+	font-size: 18px;
+	font-family: 'Proxima Nova Regular';
+	margin: 0 10%;
+
+}
+
+.container3 .center h2 {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.container3 .center h2 a{
+	text-align: center;
+	color: #252C30;
+	font-size: 36px;
+	font-family: 'Proxima Nova Bold';
+	text-decoration: none;
+
+}
+
+.container3 .center h2 a:hover, .container3 .center h2 a span{
+	color: #ffc000;
+	
+}
